@@ -1,8 +1,8 @@
 {
   "name": "@albertparlys/nest-access-control",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Access Control Module For Nestjs Framework",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --notify --config=jest.json",
     "test:watch": "jest --watch --config=jest.json",

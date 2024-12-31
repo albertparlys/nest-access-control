@@ -1,6 +1,6 @@
 {
   "name": "@albertparlys/nest-access-control",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Access Control Module For Nestjs Framework",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "build:lib": "gulp build --dist lib && cp -rf package.json lib && cp -rf README.md lib",
     "npm:publish": "cd lib && npm publish"
   },
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/albertparlys/nest-access-control.git"

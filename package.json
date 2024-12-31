@@ -15,6 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/albertparlys/nest-access-control.git"
   },
+  "publishConfig": {
+    "publish-package": "npm publish",
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "nestjs",
     "access",

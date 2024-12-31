@@ -1,4 +1,4 @@
-import { AccessControl } from 'accesscontrol';
+import { AccessControl } from '@albertparlys/accesscontrol';
 /**
  * @class RolesBuilder
  * @extends AccessControl

@@ -1,5 +1,5 @@
 {
-  "name": "nest-access-control",
+  "name": "@albertparlys/nest-access-control",
   "version": "3.1.0",
   "description": "Access Control Module For Nestjs Framework",
   "main": "index.js",
@@ -13,7 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nestjsx/nest-access-control.git"
+    "url": "git+https://github.com/albertparlys/nest-access-control.git"
+  },
+  "publishConfig": {
+    "publish-package": "npm publish",
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "nestjs",
@@ -24,6 +28,9 @@
     "addons"
   ],
   "author": "Shady Khalifa <shekohex@gmail.com>",
+  "maintainers": [
+    "Albert Parlys <albertparlys@gmail.com>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@nestjs/common": "^10.1.3",
@@ -44,11 +51,12 @@
     "typescript": "^5.1.6"
   },
   "bugs": {
-    "url": "https://github.com/nestjsx/nest-access-control/issues"
+    "url": "https://github.com/albertparlys/nest-access-control/issues"
   },
-  "homepage": "https://github.com/nestjsx/nest-access-control#readme",
+  "homepage": "https://github.com/albertparlys/nest-access-control#readme",
   "dependencies": {
-    "accesscontrol": "^2.2.1",
+    "@albertparlys/accesscontrol": "^2.3.0",
+    "@changesets/cli": "^2.27.11",
     "tslib": "^2.6.2"
   },
   "peerDependencies": {

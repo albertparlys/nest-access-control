@@ -1,5 +1,15 @@
 # Changelog
 
+## 3.2.0
+
+### Minor Changes
+
+- 29f7eb7: change repo
+
+### Patch Changes
+
+- edit build
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)

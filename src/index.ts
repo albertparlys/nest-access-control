@@ -16,5 +16,5 @@ export type {
   IQueryInfo,
   Permission,
   AccessControlError,
-} from 'accesscontrol';
+} from '@albertparlys/accesscontrol';
 export { ROLES_BUILDER_TOKEN } from './constants';

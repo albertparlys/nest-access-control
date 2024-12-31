@@ -1,6 +1,6 @@
 import { Injectable, CanActivate, ExecutionContext, UnauthorizedException } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import { IQueryInfo } from 'accesscontrol';
+import { IQueryInfo } from '@albertparlys/accesscontrol';
 import { Role } from './role.interface';
 import { InjectRolesBuilder } from './decorators/inject-roles-builder.decorator';
 import { RolesBuilder } from './roles-builder.class';
@@ -9,7 +9,7 @@ export class ACGuard<User extends any = any> implements CanActivate {
   constructor(
     private readonly reflector: Reflector,
     @InjectRolesBuilder() private readonly roleBuilder: RolesBuilder,
-  ) {}
+  ) { }
 
   protected async getUser(context: ExecutionContext): Promise<User> {
     const contextType = context.getType().toString();
